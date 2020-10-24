@@ -129,15 +129,9 @@ $(async function () {
 		hideElements();
 		$allStoriesList.show();
 		// evt.taaget
-		navigationHandlere('favoritedArticles')
+		navigationHandlere("favoritedArticles");
 	});
 
-	function navigationHandlere(div) {
-		switch() {
-			case 'favoritedArticles':
-				$favoritedArticles.show()
-		}
- 	}
 	/**
 	 * Event Handler for clicking favorites link
 	 */
